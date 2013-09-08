@@ -3,9 +3,9 @@
 
 #include "common.h"
 
-enum { NULL_POINTER, EXCEED } error_code;
+//enum { NULL_POINTER, EXCEED } error_code;
 
-bool LoadBmp(const char * filename);
-bool GetPixel(char *pBuf, int x, int y, int rgb[3]);
+//bool LoadBmp(const char * filename);
+bool GetPixel(char *pBuf, int x, int y, unsigned short rgb[3]);
 
 #endif
