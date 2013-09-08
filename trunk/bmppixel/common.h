@@ -1,6 +1,6 @@
 #ifndef _COMMON_H_
 #define _COMMON_H_
-
+#pragma pack(1)
 /*
 #define TRUE 1
 #define FALSE 0
@@ -40,11 +40,11 @@ typedef struct tagRGBQUAD {
   BYTE rgbRed; // 红色
   BYTE rgbReserved;// 保留
 } RGBQUAD;
-
+ /*
 typedef struct tagBITMAPINFO
 {
-  BITMAPINFOHEADER bmiHeader;/* 位图信息头*/
-  RGBQUAD bmiColors[N];/* 颜色表*/
+  BITMAPINFOHEADER bmiHeader; // 位图信息头
+  RGBQUAD bmiColors[N]; // 颜色表
 } BITMAPINFO;
-
+*/
 #endif
